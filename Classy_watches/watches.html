@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logow.jfif" type="image/jfif">
+    <title>Classy watches</title>
+    
+
+    <style>
+        * {
+            padding: 0;
+            margin: 1;
+            box-sizing: border-box;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1 ;
+        }
+        .navigation {
+            flex-basis: 100%;
+            flex-grow: 0;
+            flex-shrink: 1;
+            border: 2px solid black;
+            /* text-align: center center; */
+        }
+        .nav1 {
+            flex-basis:  15%; 
+            flex-grow: 1;
+            flex-shrink: 1;
+            border: 2px solid black;
+            padding: 12px 27px 23px 57px;
+            
+        }
+        .nav2 {
+            flex-basis:  65%; 
+            flex-grow: 1;
+            flex-shrink: 1;
+            padding: 51px 22px 21px 204px ;
+            border: 2px solid black;
+        }
+        .nav3 {
+            flex-basis:  20%; 
+            flex-grow: 1;
+            flex-shrink: 1;
+            padding: 20px 20px 20px 20px;
+            border: 2px solid black;
+        }
+        .content {
+            flex-basis: 70%;
+            min-height: 80vh;
+            flex-grow: 1;
+            flex-shrink: 0;
+            border: 2px solid black;
+            position: relative;
+        }
+        .content2 {
+            flex-basis: 30%;
+            min-height: 80vh;
+            flex-grow: 1;
+            flex-shrink: 0;
+            border: 2px solid black;
+            padding: 10px 20px 13px 20px;
+        }
+        #logo {
+            height: 85px;
+            width: 85px;
+            /* border: 2px solid black; */
+            padding: 0 ;
+
+        }
+        #search{
+            width: 50px;
+            height: 50px;
+            padding: 9px 33px 0px 43px;
+            box-sizing: content-box;
+
+        }
+        #heart {
+            width: 42px;
+            height: auto;
+            padding: 0px 20px 9px 22px;
+            box-sizing: content-box;
+        }
+        #shines {
+            float: right;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0px 130px 0px 0px ;
+        }
+        #w1 {
+            height: 100px;
+            width: 100px;
+            float: right;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        #w2 {
+            height: 100px;
+            width: 100px;
+            float: right;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        #w3 {
+            height: 100px;
+            width: 100px;
+            float: right;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        #w4 {
+            float: right;
+            border: 1px solid black;
+            /* border-radius: 50%; */
+        }
+        #w5 {
+            height: 230px;
+            width: 230px;
+            border-radius: 50%;
+        }
+        #new {
+            height: 70px;
+            width: 100px;
+            float: right;
+            border-radius: 50%;
+        }
+        #font {
+            color: white;
+            font-size: 36px;
+
+        }
+        .imgborder1 {
+            position: absolute;
+            bottom: 50%;
+            right: 20px;
+            display: block;
+            height: 120px;
+            width: 180px;
+            border: 2px solid black;
+            padding: 9px 68px 0px 0px;
+        }
+        .imgborder2 {
+            position: absolute;
+            bottom: 26%;
+            right: 20px;
+            height: 120px;
+            width: 180px;
+            border: 2px solid black;
+            padding: 8px 7px 0px 0px;
+        }
+        .imgborder3 {
+            position: absolute;
+            bottom: 2%;
+            right: 20px;
+            display: block;
+            height: 120px;
+            width: 180px;
+            border: 2px solid black;
+            padding: 9px 68px 0px 0px;
+        }
+        .imgborder4 {
+            position: absolute;
+            bottom: 20%;
+            right: 220px;
+            display: block;
+            height: 220px;
+            width: 310px;
+            border: 2px solid black;
+            padding: 10px 8px 0px 0px;
+        }
+        
+        .bgnavy {
+            background-color: navy;
+            padding: 20px 28px 12px 57px;
+        }
+        .contpad {
+            padding: 2px 0px 0px 85px;
+        }
+        .red {
+            color: red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="navigation"> -->
+            <div class="nav1">
+                <a href="#"><img src="images/logow.jfif" alt="logo" id="logo"></a>
+            </div>
+            <div class="nav2">
+                <strong>
+                    <a href="#" style="padding: 20px 20px 20px 20px;"> HOME </a>
+                    <a href="#" style="padding: 20px 65px 20px 65px;"> ABOUT </a>
+                    <a href="#" style="padding: 20px 65px 20px 28px;"> SUPPORT </a>
+                    <a href="#" style="padding: 20px 20px 20px 20px;"> PRODUCTS</a>
+                </strong>
+                
+            </div>
+            <div class="nav3">
+                <a href="#" ><img src="images/search.jfif" alt="search" id="search" ></a>
+                <a href="#" ><img src="images/heart.jfif" alt="liked" id="heart" ></a>
+            </div>
+        <!-- </div> -->
+        <div class="content">
+            <p style="color:red; padding: 75px 0px 0px 76px;font-family: 'Franklin Gothic Medium';">FEATURED PRODUCT</p>
+            <div class="contpad">
+                <h1 style="font-size:65px;padding: 2px;margin: 0; ">CLASSY <br> WATCHES </h1>
+                <strong>
+                    <p style="font-family: Cascadia Code Light; font-size: 18px;">Eye catching & trendy watch to <br> increase your
+                        reach</p>
+                    <p style="font-size: 27px;">$999.99</p>
+                    <br>
+                
+                    <a href="#" style="display: inline-block;border: 2px solid black;padding: 10px; ">ADD TO CART</a>
+                    <br><br>
+                </strong>
+            </div>
+            <img src="images/sun.jfif" alt="shines" id="shines" >
+            <div class="imgborder1">
+                <img src="images/w7.jfif" alt="model" id="w1">
+            </div>
+            
+            <div class="imgborder2">
+                <img src="images/w6.jfif" alt="model"  id="w2">
+            </div>
+            <div class="imgborder3">
+                <img src="images/w8.jfif" alt="model"  id="w3">
+            </div>
+            <div class="imgborder4">
+                <img src="images/w13.jpg" alt="model" id="w4" >
+            </div>
+        </div>
+        <div class="content2">
+            <div class="bgnavy">
+                <img src="images/w1.jpg" alt="model" id="w5"> <br>
+                <img src="images/new.jfif" alt="new" id="new"> <br><br> <br><br>
+                <strong>
+                    <p id="font"><span class="red">Style</span> is a way to say who you are without having to <span class="red">speak</span> </p>
+                </strong>
+                
+            
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
